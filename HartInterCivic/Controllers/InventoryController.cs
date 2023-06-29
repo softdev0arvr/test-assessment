@@ -25,7 +25,7 @@ namespace HartInterCivic.Controllers
                 {
                     return NotFound();
                 }
-                // TODO: Do I need JSON Serializer here?
+                
                 return Ok(items);
             }
             catch (Exception ex) 
