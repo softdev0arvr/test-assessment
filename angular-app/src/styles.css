@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.overlay-container {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    position: fixed;
+    left: 41%;
+}
+
+.toast-success {
+    background-color: #e21515 !important;
+    color: white !important;
+}
+
+.toast-info {
+    background-color: #2196f3 !important;
+    color: white !important;
+}
+
+.toast-warning {
+    background-color: #ff9800 !important;
+    color: white !important;
+}
+
+.toast-error {
+    background-color: #f44336 !important;
+    color: white !important;
+}
